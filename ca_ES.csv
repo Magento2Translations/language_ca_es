@@ -1,0 +1,27 @@
+"Unable to delete store. Please, try again later.","No es pot suprimir la botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
+"Unable to delete store view. Please, try again later.","No es pot suprimir la vista de botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
+"Unable to delete website. Please, try again later.","No es pot suprimir el lloc web. Si us plau, intenti-ho més tard.",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file.","Els fitxers JavaScript i CSS del tema seran combinat en un sol fitxer.",module,Magento_Backend
+"Stored Card","Targeta emmagatzemada",module,Magento_Braintree
+"Save Category","Guardar la categoria",module,Magento_Catalog
+"Delete Category","Suprimir la categoria",module,Magento_Catalog
+"New Subcategory","Nova subcategoria",module,Magento_Catalog
+"New Root Category","Nova categoria arrel",module,Magento_Catalog
+"Set Root Category for Store","Establir la categoria arrel de la botiga",module,Magento_Catalog
+"Custom Design","Disseny personalitzat",module,Magento_Catalog
+"Category Data","Dades de la categoria",module,Magento_Catalog
+"Not shared with other products","No compartit amb altres productes",module,Magento_Catalog
+"Design Theme","Tema de disseny",module,Magento_Backend
+"User-Agent Exceptions","Excepcions d'User-Agent",module,Magento_Backend
+"Find a string in client user-agent header and switch to specific design theme for that browser.","Trobar un cadena en la capçalera de l'User-Agent del client, i canviar a un tema de disseny específic per a aquest navegador.",module,Magento_Backend
+"If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Si la posició del frame actual no cobreix la majoria de les pàgines, es renderitzarà un enllaç a la posició actual mes/menys aquest valor.",module,Magento_Backend
+"Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç anterior al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
+"Alternative text for next link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç següent al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
+"Enable Javascript Bundling","Activar agrupament de JavaScript",module,Magento_Backend
+"Recovery Link Expiration Period (days)","Restablir Període d'expiració d'enllaços (dies)",module,Magento_Backend
+"Values less than 60 are ignored.","Valors inferiors a 60 són ignorats.",module,Magento_Backend
+"Capture action","Capturar l'acció",module,Magento_Braintree
+"Use Vault","Utilitzar Contenidor",module,Magento_Braintree
+"Allow Duplicate Cards","Permetre targetes duplicades",module,Magento_Braintree
+"Your Kount ID","Identificador Kount",module,Magento_Braintree
+"Use Cache","Utilitzar memòria cau",module,Magento_Braintree
