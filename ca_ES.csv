@@ -1,3 +1,4 @@
+"Close popup","Tanca finestra emergent",module,Magento_AdminNotification
 "Unable to delete store. Please, try again later.","No es pot suprimir la botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","No es pot suprimir la vista de botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","No es pot suprimir el lloc web. Si us plau, intenti-ho més tard.",module,Magento_Backend
