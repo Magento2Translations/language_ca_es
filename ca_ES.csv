@@ -1,3 +1,4 @@
+"Close popup","Tanca finestra emergent",module,Magento_AdminNotification
 "Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies.",module,Magento_Authorization
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
