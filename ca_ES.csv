@@ -1,13 +1,6 @@
-"Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
-"We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies.",module,Magento_Authorization
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou.",module,Magento_Authorizenet
-"We couldn't find any records.","No podem trobar cap registre.",module,Magento_Backend
-"Specified cache type(s) don't exist: %1","El tipus de cache(s) especificat no existeix: %1",module,Magento_Backend
-"We can't refresh lifetime statistics.","No podem actualitzar les estadístiques en temps real.",module,Magento_Backend
-"We can't create a backup right now. Please try again later.","No es pot crear una còpia de seguretat ara mateix. Intenti-ho més tard.",module,Magento_Backend
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà.",module,Magento_Backend
 "We can't create the backup right now.","No es pot crear la còpia de seguretat ara mateix.",module,Magento_Backup
 "We can't delete one or more backups.","No es poden eliminar una o més còpies de seguretat.",module,Magento_Backup
 "Can't load snapshot archive","No es pot carregar la vista de l'arxiu",module,Magento_Backup
@@ -15,8 +8,3 @@
 "We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix.",module,Magento_Backup
 "We can't save the Cron expression.","No es pot guardar l'expressió de Cron.",module,Magento_Backup
 "We can't initialize checkout.","No es pot iniciar el procés de compra.",module,Magento_Braintree
-"Requested bundle option product doesn't exist","L'opció sol·licitada per a aquest producte no existeix",module,Magento_Bundle
-"Requested option doesn't exist","L'opció sol·licitada no existeix",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix.",module,Magento_Bundle
-"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols.",module,Magento_Catalog
-"We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer.",module,Magento_Backend
