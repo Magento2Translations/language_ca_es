@@ -1,9 +1,5 @@
-"Close popup","Tanca finestra emergent",module,Magento_AdminNotification
 "Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies.",module,Magento_Authorization
-"We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
-"This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda.",module,Magento_Authorizenet
-"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou.",module,Magento_Authorizenet
 "We couldn't find any records.","No podem trobar cap registre.",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empry","Si us plau, corregiu la configuració de la llengüeta i proveu un altre cop. El id de la llengüeta no pot ser buit.",module,Magento_Backend
 "Specified cache type(s) don't exist: %1","El tipus de cache(s) especificat no existeix: %1",module,Magento_Backend
@@ -15,18 +11,6 @@
 "Unable to delete website. Please, try again later.","No es pot suprimir el lloc web. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà.",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Els fitxers JavaScript i CSS del tema seran combinat en un sol fitxer.",module,Magento_Backend
-"We can't create the backup right now.","No es pot crear la còpia de seguretat ara mateix.",module,Magento_Backup
-"We can't delete one or more backups.","No es poden eliminar una o més còpies de seguretat.",module,Magento_Backup
-"Can't load snapshot archive","No es pot carregar la vista de l'arxiu",module,Magento_Backup
-"We can't find the backup file.","No trobem l'arxiu de còpies de seguretat.",module,Magento_Backup
-"We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix.",module,Magento_Backup
-"We can't save the Cron expression.","No es pot guardar l'expressió de Cron.",module,Magento_Backup
-"Stored Card","Targeta emmagatzemada",module,Magento_Braintree
-"We can't initialize checkout.","No es pot iniciar el procés de compra.",module,Magento_Braintree
-"We can't place the order.","No es pot fer la comanda.",module,Magento_Braintree
-"Incorrect payment method.","Mètode de pagament incorrecte.",module,Magento_Braintree
-"We can't initialize checkout review.","No es pot inicialitzar la revisió del procés de compra.",module,Magento_Braintree
-"We can't update shipping method.","No es pot actualitzar el mètode d'enviament.",module,Magento_Braintree
 "Requested bundle option product doesn't exist","L'opció sol·licitada per a aquest producte no existeix",module,Magento_Bundle
 "Requested option doesn't exist","L'opció sol·licitada no existeix",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix.",module,Magento_Bundle
@@ -49,10 +33,3 @@
 "Enable Javascript Bundling","Activar agrupament de JavaScript",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Restablir Període d'expiració d'enllaços (dies)",module,Magento_Backend
 "Values less than 60 are ignored.","Valors inferiors a 60 són ignorats.",module,Magento_Backend
-"Capture action","Capturar l'acció",module,Magento_Braintree
-"New Order Status","Nou estat de la comanda",module,Magento_Braintree
-"Use Vault","Utilitzar Contenidor",module,Magento_Braintree
-"Allow Duplicate Cards","Permetre targetes duplicades",module,Magento_Braintree
-"Enable Credit Card auto-detection on Storefront","Permetre l'auto-detecció de targeta de crèdit en la botiga",module,Magento_Braintree
-"Your Kount ID","Identificador Kount",module,Magento_Braintree
-"Use Cache","Utilitzar memòria cau",module,Magento_Braintree
