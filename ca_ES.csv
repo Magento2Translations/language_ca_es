@@ -1,7 +1,46 @@
+"Read Details","Llegir detalls",module,Magento_AdminNotification
+"Mark as Read","Marca com a llegit",module,Magento_AdminNotification
+"Are you sure?",Segur?,module,Magento_AdminNotification
+Remove,Elimina,module,Magento_AdminNotification
+"Messages Inbox","Safata d'entrada missatges",module,Magento_AdminNotification
+"You have %1 new system messages","Hi ha %1 nous missatges de sistema",module,Magento_AdminNotification
+"You have %1 new system message","Hi ha %1 nou missatge de sistema",module,Magento_AdminNotification
+"Incoming Message","Missatge entrant",module,Magento_AdminNotification
+close,tanca,module,Magento_AdminNotification
+Notifications,Notificacions,module,Magento_AdminNotification
+"The message has been marked as Read.","Missatge marcat com a llegit.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","No podem marcar la notificació com a llegida a causa d'un error.",module,Magento_AdminNotification
+"Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","%1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","No podem eliminar els missatges a causa d'un error.",module,Magento_AdminNotification
+"The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
+"1 Hour","1 Hora",module,Magento_AdminNotification
+"2 Hours","2 Hores",module,Magento_AdminNotification
+"6 Hours","6 Hores",module,Magento_AdminNotification
+"12 Hours","12 Hores",module,Magento_AdminNotification
+"24 Hours","24 Hores",module,Magento_AdminNotification
+critical,crítiques,module,Magento_AdminNotification
+major,importants,module,Magento_AdminNotification
+minor,"a revisar",module,Magento_AdminNotification
+notice,avís,module,Magento_AdminNotification
+"Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
 "Close popup","Tanca finestra emergent",module,Magento_AdminNotification
+Close,Tanca,module,Magento_AdminNotification
+"Critical System Messages","Missatges crítics de sistema",module,Magento_AdminNotification
+"Major System Messages","Missatges importants de sistema",module,Magento_AdminNotification
+"System messages","Missatges de sistema",module,Magento_AdminNotification
+"Please select items.","Si us plau, selecciona elements.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","No es pot suprimir la botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","No es pot suprimir la vista de botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","No es pot suprimir el lloc web. Si us plau, intenti-ho més tard.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","No has iniciat sessió correctament o el teu compte està temporalment desactivat.",module,Magento_Backend
+"Authentication error occurred.","S'ha produït un error d'autenticació.",module,Magento_Backend
+"Access denied","Accés denegat",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Si continueu rebent aquest missatge, contacti amb el propietari de la botiga.",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Tots els drets reservats.",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Els fitxers JavaScript i CSS del tema seran combinat en un sol fitxer.",module,Magento_Backend
 "Stored Card","Targeta emmagatzemada",module,Magento_Braintree
 "Save Category","Guardar la categoria",module,Magento_Catalog
@@ -12,12 +51,21 @@
 "Custom Design","Disseny personalitzat",module,Magento_Catalog
 "Category Data","Dades de la categoria",module,Magento_Catalog
 "Not shared with other products","No compartit amb altres productes",module,Magento_Catalog
+"Shop By","Compra per",theme,frontend/Magento/luma
+"Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
+"Update Frequency","Freqüència d'actualització",module,Magento_AdminNotification
+"Last Update","Darrera actualització",module,Magento_AdminNotification
+Severity,Gravetat,module,Magento_AdminNotification
+"Date Added","Data en què s'ha afegit",module,Magento_AdminNotification
+Message,Missatge,module,Magento_AdminNotification
+Actions,Accions,module,Magento_AdminNotification
 "Design Theme","Tema de disseny",module,Magento_Backend
 "User-Agent Exceptions","Excepcions d'User-Agent",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Trobar un cadena en la capçalera de l'User-Agent del client, i canviar a un tema de disseny específic per a aquest navegador.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Si la posició del frame actual no cobreix la majoria de les pàgines, es renderitzarà un enllaç a la posició actual mes/menys aquest valor.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç anterior al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç següent al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
+"Add Block Names to Hints","Afegir noms de Bloc a les pistes",module,Magento_Backend
 "Enable Javascript Bundling","Activar agrupament de JavaScript",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Restablir Període d'expiració d'enllaços (dies)",module,Magento_Backend
 "Values less than 60 are ignored.","Valors inferiors a 60 són ignorats.",module,Magento_Backend
@@ -26,3 +74,4 @@
 "Allow Duplicate Cards","Permetre targetes duplicades",module,Magento_Braintree
 "Your Kount ID","Identificador Kount",module,Magento_Braintree
 "Use Cache","Utilitzar memòria cau",module,Magento_Braintree
+Summary,Resum,theme,frontend/Magento/blank
