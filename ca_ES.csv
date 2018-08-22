@@ -1,10 +1,50 @@
+"Read Details","Llegir detalls",module,Magento_AdminNotification
+"Mark as Read","Marca com a llegit",module,Magento_AdminNotification
+"Are you sure?",Segur?,module,Magento_AdminNotification
+Remove,Elimina,module,Magento_AdminNotification
+"Messages Inbox","Safata d'entrada missatges",module,Magento_AdminNotification
+"You have %1 new system messages","Hi ha %1 nous missatges de sistema",module,Magento_AdminNotification
+"You have %1 new system message","Hi ha %1 nou missatge de sistema",module,Magento_AdminNotification
+"Incoming Message","Missatge entrant",module,Magento_AdminNotification
+close,tanca,module,Magento_AdminNotification
+Notifications,Notificacions,module,Magento_AdminNotification
+"The message has been marked as Read.","Missatge marcat com a llegit.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","No podem marcar la notificació com a llegida a causa d'un error.",module,Magento_AdminNotification
+"Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","%1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","No podem eliminar els missatges a causa d'un error.",module,Magento_AdminNotification
+"The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
+"1 Hour","1 Hora",module,Magento_AdminNotification
+"2 Hours","2 Hores",module,Magento_AdminNotification
+"6 Hours","6 Hores",module,Magento_AdminNotification
+"12 Hours","12 Hores",module,Magento_AdminNotification
+"24 Hours","24 Hores",module,Magento_AdminNotification
+critical,crítiques,module,Magento_AdminNotification
+major,importants,module,Magento_AdminNotification
+minor,"a revisar",module,Magento_AdminNotification
+notice,avís,module,Magento_AdminNotification
+"Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
+"Wrong notification ID specified.","ID de notificació especificat incorrecte.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} no es recomana utilitzar en un entorn de producció per declarar l'adreça URL Base no segura / URL Base segura. Es recomana canviar aquest valor a la <a href=""%1"">configuració</a> de Magento.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","No s'ha pogut sincronitzar un o més fitxers multimèdia. Consulteu el registre per veure'n els detalls.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","El servidor web no està ben configurat i permet l'accés a fitxers sensibles. Si us plau, poseu-vos en contacte amb el proveïdor del hosting.",module,Magento_AdminNotification
+"System Messages:","Missatges de sistema:",module,Magento_AdminNotification
+"Critical System Messages","Missatges crítics de sistema",module,Magento_AdminNotification
+"Major System Messages","Missatges importants de sistema",module,Magento_AdminNotification
+"System messages","Missatges de sistema",module,Magento_AdminNotification
+Close,Tanca,module,Magento_AdminNotification
+"See All (","Veure tots (",module,Magento_AdminNotification
+"Please correct the data sent.","Si us plau corregeixi les dades enviades.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
-"We can't find the role for the user you wanted.","No podem trobar el rol per l'usuari que volies.",module,Magento_Authorization
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","El tipus de model d'entitat ha de ser una instància de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","No hi ha tipus de producte disponibles per exportar",module,Magento_AdvancedPricingImportExport
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou.",module,Magento_Authorizenet
 "We couldn't find any records.","No podem trobar cap registre.",module,Magento_Backend
-"Specified cache type(s) don't exist: %1","El tipus de cache(s) especificat no existeix: %1",module,Magento_Backend
 "We can't refresh lifetime statistics.","No podem actualitzar les estadístiques en temps real.",module,Magento_Backend
 "We can't create a backup right now. Please try again later.","No es pot crear una còpia de seguretat ara mateix. Intenti-ho més tard.",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Si us plau, confirmeu el canvi d'abast. Tota la informació no gravada es perdrà.",module,Magento_Backend
@@ -14,9 +54,65 @@
 "We can't find the backup file.","No trobem l'arxiu de còpies de seguretat.",module,Magento_Backup
 "We can't connect to the FTP right now.","No es pot conectar a l'FTP ara mateix.",module,Magento_Backup
 "We can't save the Cron expression.","No es pot guardar l'expressió de Cron.",module,Magento_Backup
-"We can't initialize checkout.","No es pot iniciar el procés de compra.",module,Magento_Braintree
-"Requested bundle option product doesn't exist","L'opció sol·licitada per a aquest producte no existeix",module,Magento_Bundle
-"Requested option doesn't exist","L'opció sol·licitada no existeix",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix.",module,Magento_Bundle
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols.",module,Magento_Catalog
-"We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer.",module,Magento_Backend
+"Now Shopping by","Comprant per",theme,frontend/Magento/luma
+Previous,Anterior,theme,frontend/Magento/luma
+Remove,Treure,theme,frontend/Magento/luma
+"Remove This Item","Treure aquest element",theme,frontend/Magento/luma
+"Shop By","Compra per",theme,frontend/Magento/luma
+"Clear All","Neteja tot",theme,frontend/Magento/luma
+"Shopping Options","Opcions de compra",theme,frontend/Magento/luma
+"Welcome to %store_name","Us donem la benvinguda a %store_name",theme,frontend/Magento/luma
+"Welcome to %store_name.","Us donem la benvinguda a %store_name.",theme,frontend/Magento/luma
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Per iniciar sessió, utilitzeu aquestes credencials durant la formalització de la comanda o a la pàgina <a href=""%customer_url"">El meu compte</a>:",theme,frontend/Magento/luma
+Email:,Correu:,theme,frontend/Magento/luma
+Password:,Contrasenya:,theme,frontend/Magento/luma
+"Password you set when creating account","Contrasenya indicada quan es va crear el compte",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Contrasenya oblidada? Feu clic <a href=""%reset_url"">aquí</a> per a restaurar-la.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:",theme,frontend/Magento/luma
+"Quick Checkout","Compra ràpida",theme,frontend/Magento/luma
+"Proceed through checkout faster","Formalitzar la comanda ràpidament",theme,frontend/Magento/luma
+"Order Status","Estat de la comanda",theme,frontend/Magento/luma
+"Check the status of orders","Comprovar l'estat de les comandes",theme,frontend/Magento/luma
+"Manage Addresses","Gestionar adreces",theme,frontend/Magento/luma
+"Store alternative addresses","Desar adreces alternatives",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","Per enviar a familiars i amics",theme,frontend/Magento/luma
+"Order History","Historial de comandes",theme,frontend/Magento/luma
+"View past orders","Veure comandes anteriors",theme,frontend/Magento/luma
+Footer,"Peu de pàgina",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Horari d'atenció:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Credit memo for your %store_name order","Factura d'abonament de la comanda a %store_name",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Gràcies per la comanda a %store_name.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Podeu revisar l'estat de la comanda <a href=""%account_url"">entrant al vostre compte</a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si teniu consultes sobre la comanda, ens podeu escriure a <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Factura d'abonament #%creditmemo_id de la comanda #%order_id",theme,frontend/Magento/luma
+"Billing Info","Informació de facturació",theme,frontend/Magento/luma
+"Shipping Info","Informació d'enviament",theme,frontend/Magento/luma
+"Payment Method","Mètode de pagament",theme,frontend/Magento/luma
+"Shipping Method","Mètode d'enviament",theme,frontend/Magento/luma
+"Update to your %store_name credit memo","Actualització de la factura d'abonament a %store_name",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","La comanda #%increment_id ha estat actualitzada a l'estat <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","Factura de la comanda a %store_name",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Factura #%invoice_id de la comanda #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","Actualització factura de la comanda a %store_name",theme,frontend/Magento/luma
+"Your %store_name order confirmation","Confirmació de la comanda a %store_name",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Rebreu el número de seguiment quan us enviem la comanda.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Comanda <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Posat en <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","Actualització de la comanda a %store_name",theme,frontend/Magento/luma
+"Your %store_name order has shipped","S'ha enviat la comanda realitzada a %store_name",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Confirmació de l'enviament a continuació. Gràcies de nou per la comanda.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","Enviament #%shipment_id de la comanda #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Actualització enviament de la comanda a %store_name",theme,frontend/Magento/luma
+"Show Toolbar","Mostra a la barra d'eines",module,Magento_AdminNotification
+"Show List","Mostra la llista",module,Magento_AdminNotification
+"Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
+"Update Frequency","Freqüència d'actualització",module,Magento_AdminNotification
+"Last Update","Darrera actualització",module,Magento_AdminNotification
+Severity,Gravetat,module,Magento_AdminNotification
+"Date Added","Data en què s'ha afegit",module,Magento_AdminNotification
+Message,Missatge,module,Magento_AdminNotification
+Actions,Accions,module,Magento_AdminNotification
+"Address Book","Llibreta d'adreces",theme,frontend/Magento/luma
+"Account Information","Informació del compte",theme,frontend/Magento/luma
