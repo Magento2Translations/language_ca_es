@@ -12,9 +12,10 @@ Notifications,Notificacions,module,Magento_AdminNotification
 "We couldn't mark the notification as Read because of an error.","No podem marcar la notificació com a llegida a causa d'un error.",module,Magento_AdminNotification
 "Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
-"Total of %1 record(s) have been removed.","%1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Un total de %1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","No podem eliminar els missatges a causa d'un error.",module,Magento_AdminNotification
 "The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","S'han vist i resolt totes les notificacions de sistema recents. Si us plau, refresqueu la pàgina per netejar les alertes.",module,Magento_AdminNotification
 "1 Hour","1 Hora",module,Magento_AdminNotification
 "2 Hours","2 Hores",module,Magento_AdminNotification
 "6 Hours","6 Hores",module,Magento_AdminNotification
@@ -27,6 +28,7 @@ notice,avís,module,Magento_AdminNotification
 "Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
 "Wrong notification ID specified.","ID de notificació especificat incorrecte.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} no es recomana utilitzar en un entorn de producció per declarar l'adreça URL Base no segura / URL Base segura. Es recomana canviar aquest valor a la <a href=""%1"">configuració</a> de Magento.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Un o més dels tipus de memòria cau són invàlids: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","No s'ha pogut sincronitzar un o més fitxers multimèdia. Consulteu el registre per veure'n els detalls.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
@@ -37,13 +39,77 @@ notice,avís,module,Magento_AdminNotification
 "System messages","Missatges de sistema",module,Magento_AdminNotification
 Close,Tanca,module,Magento_AdminNotification
 "See All (","Veure tots (",module,Magento_AdminNotification
+" unread)"," sense llegir)",module,Magento_AdminNotification
 "Please correct the data sent.","Si us plau corregeixi les dades enviades.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","El tipus de model d'entitat ha de ser una instància de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","No hi ha tipus de producte disponibles per exportar",module,Magento_AdvancedPricingImportExport
+"Related Search Terms","Termes de cerca relacionats",module,Magento_AdvancedSearch
+"Add New Search Term","Afegir nou terme de cerca",module,Magento_AdvancedSearch
+"Missing search engine parameter.","Paràmetre de motor de cerca desconegut.",module,Magento_AdvancedSearch
+"Successful! Test again?","Correcte! Tornem a provar?",module,Magento_AdvancedSearch
+"Connection failed! Test again?","La connexió ha fallat! Tornem a provar?",module,Magento_AdvancedSearch
+"Subscription status","Estat de la subscripció",module,Magento_Analytics
+"Sorry, there has been an error processing your request. Please try again later.","Ho sento, hi ha hagut un problema progressant la petició. Si us plau, prova-ho més tard.",module,Magento_Analytics
+"Cron settings can't be saved","Les configuracions del Cron no poden ser guardades",module,Magento_Analytics
+"There was an error save new configuration value.","N'hi ha hagut un error al guardar el valor de la nova configuració.",module,Magento_Analytics
+"--Please Select--","--Siusplau Seleccioni--",module,Magento_Analytics
+"Command was not found.","La comanda no s'ha trobat.",module,Magento_Analytics
+"These arguments can't be empty ""%1""","Aquests arguments no poden ser vuits ""%1""",module,Magento_Analytics
+"Cannot find predefined integration user!","No es pot trobar l'usuari d'integració predefinit!",module,Magento_Analytics
+"File is not ready yet.","El fitxer no està llest encara.",module,Magento_Analytics
+"Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","L'URL base ha sigut canviada i els teus reports han sigut actualitzats. Els reports avançats estaran disponibles un cop els canvis siguin processats. Si us plau, intenta-ho més tard.",module,Magento_Analytics
+"Failed to synchronize data to the Magento Business Intelligence service. ","Error al sincronitzar les dades del servei de Magento Business Intelligence. ",module,Magento_Analytics
+TestMessage,"Missatge de prova",module,Magento_Analytics
+"Apps and Games","Aplicacions i jocs",module,Magento_Analytics
+"Athletic/Sporting Goods","Atlètics/Béns esportius",module,Magento_Analytics
+"Art and Design","Art i Disseny",module,Magento_Analytics
+"Advanced Reporting","Informes avançats",module,Magento_Analytics
+"Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Guanyi noves visites i prengui les rendes del rendiment del seu negoci, utilitzant els nostres informes dinàmics de productes, comandes i clients adaptats a les dades dels seus clients.",module,Magento_Analytics
+"Go to Advanced Reporting","Vés als informes avançats",module,Magento_Analytics
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou.",module,Magento_Authorizenet
+"Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina.",module,Magento_Backend
+"Cache Storage Management","Gestió d'emmagatzematge de caché",module,Magento_Backend
+"Flush Magento Cache","Buidar la caché de Magento",module,Magento_Backend
+"Flush Cache Storage","Buidar l'emmagatzematge de caché",module,Magento_Backend
+Invalidated,Invalidat,module,Magento_Backend
+Orders,Comandes,module,Magento_Backend
+Amounts,Quantitats,module,Magento_Backend
+Bestsellers,"Més venuts",module,Magento_Backend
+"Most Viewed Products","Productes més vists",module,Magento_Backend
+"New Customers","Nous clients",module,Magento_Backend
+Customers,Clients,module,Magento_Backend
+Customer,Client,module,Magento_Backend
+Guest,Convidat,module,Magento_Backend
+Items,Elements,module,Magento_Backend
+"Average Order","Mitjana de comandes",module,Magento_Backend
+Average,Mitjana,module,Magento_Backend
+Product,Producte,module,Magento_Backend
+Price,Preu,module,Magento_Backend
+Quantity,Quantitat,module,Magento_Backend
+Views,Vistes,module,Magento_Backend
+Tax,Impostos,module,Magento_Backend
+Shipping,Enviament,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Imatges (.gif, .jpg, .png)",module,Magento_Backend
+"All Files","Tots els fitxers",module,Magento_Backend
+"What is this?","Què és això?",module,Magento_Backend
+"My Account","El meu compte",module,Magento_Backend
+"User Name","Nom d'usuari",module,Magento_Backend
+"First Name",Nom,module,Magento_Backend
+"Last Name",Cognoms,module,Magento_Backend
+Email,"Correu electrònic",module,Magento_Backend
+"User Email","Correu electrònic de l'usuari",module,Magento_Backend
+"New Password","Nova Contrasenya",module,Magento_Backend
+"Password Confirmation","Confirmació de la contrasenya",module,Magento_Backend
+"Interface Locale","Configuració d'interfície",module,Magento_Backend
+"Your Password","La teva contrasenya",module,Magento_Backend
+"Save Cache Settings","Desar la configuració de la caché",module,Magento_Backend
+Refresh,Refrescar,module,Magento_Backend
+Clear,Netejar,module,Magento_Backend
+Rebuild,Reconstruïr,module,Magento_Backend
 "We couldn't find any records.","No podem trobar cap registre.",module,Magento_Backend
 "We can't refresh lifetime statistics.","No podem actualitzar les estadístiques en temps real.",module,Magento_Backend
 "We can't create a backup right now. Please try again later.","No es pot crear una còpia de seguretat ara mateix. Intenti-ho més tard.",module,Magento_Backend
@@ -56,55 +122,6 @@ Close,Tanca,module,Magento_AdminNotification
 "We can't save the Cron expression.","No es pot guardar l'expressió de Cron.",module,Magento_Backup
 "We can't add this item to your shopping cart right now.","No es pot afegir aquest article a la cistella ara mateix.",module,Magento_Bundle
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols.",module,Magento_Catalog
-"Now Shopping by","Comprant per",theme,frontend/Magento/luma
-Previous,Anterior,theme,frontend/Magento/luma
-Remove,Treure,theme,frontend/Magento/luma
-"Remove This Item","Treure aquest element",theme,frontend/Magento/luma
-"Shop By","Compra per",theme,frontend/Magento/luma
-"Clear All","Neteja tot",theme,frontend/Magento/luma
-"Shopping Options","Opcions de compra",theme,frontend/Magento/luma
-"Welcome to %store_name","Us donem la benvinguda a %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Us donem la benvinguda a %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Per iniciar sessió, utilitzeu aquestes credencials durant la formalització de la comanda o a la pàgina <a href=""%customer_url"">El meu compte</a>:",theme,frontend/Magento/luma
-Email:,Correu:,theme,frontend/Magento/luma
-Password:,Contrasenya:,theme,frontend/Magento/luma
-"Password you set when creating account","Contrasenya indicada quan es va crear el compte",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Contrasenya oblidada? Feu clic <a href=""%reset_url"">aquí</a> per a restaurar-la.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:",theme,frontend/Magento/luma
-"Quick Checkout","Compra ràpida",theme,frontend/Magento/luma
-"Proceed through checkout faster","Formalitzar la comanda ràpidament",theme,frontend/Magento/luma
-"Order Status","Estat de la comanda",theme,frontend/Magento/luma
-"Check the status of orders","Comprovar l'estat de les comandes",theme,frontend/Magento/luma
-"Manage Addresses","Gestionar adreces",theme,frontend/Magento/luma
-"Store alternative addresses","Desar adreces alternatives",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Per enviar a familiars i amics",theme,frontend/Magento/luma
-"Order History","Historial de comandes",theme,frontend/Magento/luma
-"View past orders","Veure comandes anteriors",theme,frontend/Magento/luma
-Footer,"Peu de pàgina",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Horari d'atenció:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Factura d'abonament de la comanda a %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Gràcies per la comanda a %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Podeu revisar l'estat de la comanda <a href=""%account_url"">entrant al vostre compte</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si teniu consultes sobre la comanda, ens podeu escriure a <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Factura d'abonament #%creditmemo_id de la comanda #%order_id",theme,frontend/Magento/luma
-"Billing Info","Informació de facturació",theme,frontend/Magento/luma
-"Shipping Info","Informació d'enviament",theme,frontend/Magento/luma
-"Payment Method","Mètode de pagament",theme,frontend/Magento/luma
-"Shipping Method","Mètode d'enviament",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Actualització de la factura d'abonament a %store_name",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","La comanda #%increment_id ha estat actualitzada a l'estat <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","Factura de la comanda a %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Factura #%invoice_id de la comanda #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Actualització factura de la comanda a %store_name",theme,frontend/Magento/luma
-"Your %store_name order confirmation","Confirmació de la comanda a %store_name",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Rebreu el número de seguiment quan us enviem la comanda.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Comanda <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Posat en <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Actualització de la comanda a %store_name",theme,frontend/Magento/luma
-"Your %store_name order has shipped","S'ha enviat la comanda realitzada a %store_name",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Confirmació de l'enviament a continuació. Gràcies de nou per la comanda.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Enviament #%shipment_id de la comanda #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Actualització enviament de la comanda a %store_name",theme,frontend/Magento/luma
 "Show Toolbar","Mostra a la barra d'eines",module,Magento_AdminNotification
 "Show List","Mostra la llista",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
@@ -114,5 +131,42 @@ Severity,Gravetat,module,Magento_AdminNotification
 "Date Added","Data en què s'ha afegit",module,Magento_AdminNotification
 Message,Missatge,module,Magento_AdminNotification
 Actions,Accions,module,Magento_AdminNotification
-"Address Book","Llibreta d'adreces",theme,frontend/Magento/luma
-"Account Information","Informació del compte",theme,frontend/Magento/luma
+"Enable Search Recommendations","Habilita les recomanacions de cerca",module,Magento_AdvancedSearch
+"When you enable this option your site may slow down.","Si activeu aquesta opció, el vostre lloc web pot anar més lent.",module,Magento_AdvancedSearch
+"Search Recommendations Count","Recomanacions de cerca",module,Magento_AdvancedSearch
+"Show Results Count for Each Recommendation","Mostra el recompte de resultats per a cada recomanació",module,Magento_AdvancedSearch
+"Enable Search Suggestions","Habilita suggeriments de cerca",module,Magento_AdvancedSearch
+"Search Suggestions Count","Suggeriments de cerca",module,Magento_AdvancedSearch
+"Show Results Count for Each Suggestion","Mostra el recompte de resultats per a cada suggerència",module,Magento_AdvancedSearch
+"Related search terms","Termes de cerca relacionats",module,Magento_AdvancedSearch
+"Did you mean","Voleu dir",module,Magento_AdvancedSearch
+"Search Query","Consulta de cerca",module,Magento_AdvancedSearch
+Store,Botiga,module,Magento_AdvancedSearch
+Results,Resultats,module,Magento_AdvancedSearch
+Uses,Utilitza,module,Magento_AdvancedSearch
+"Redirect URL","Redirigir URL",module,Magento_AdvancedSearch
+"Suggested Term","Terme suggerit",module,Magento_AdvancedSearch
+Yes,Si,module,Magento_AdvancedSearch
+Action,Acció,module,Magento_AdvancedSearch
+Edit,Edita,module,Magento_AdvancedSearch
+Analytics,Anàlisi,module,Magento_Analytics
+Configuration,Configuració,module,Magento_Analytics
+"Business Intelligence","Intel·ligència de negoci",module,Magento_Analytics
+"Advanced Reporting Service","Servei d'informes avançats",module,Magento_Analytics
+"Time of day to send data","Hora del dia per enviar dades",module,Magento_Analytics
+Industry,Indústria,module,Magento_Analytics
+"In order to personalize your Advanced Reporting experience, please select your industry.","Per personalitzar l'experiència en els informes avançats, si un plau, seleccioni el tipus de negoci.",module,Magento_Analytics
+"<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Obtingui més idees amb Magneto Business Intelligence</strong>",module,Magento_Analytics
+"Auto Parts","Peces d'automòbil",module,Magento_Analytics
+"Beauty and Cosmetics","Bellesa i Cosmètics",module,Magento_Analytics
+"Books, Music and Magazines","Llibres, Música i Revistes",module,Magento_Analytics
+"Crafts and Stationery","Artesanies i Papereria",module,Magento_Analytics
+"Consumer Electronics","Electrònica de Consum",module,Magento_Analytics
+"Deal Site","Lloc de Ofertes",module,Magento_Analytics
+"Fashion Apparel and Accessories","Roba i Accessoris de Moda",module,Magento_Analytics
+"Food, Beverage and Grocery","Aliments, Begudes i Ultramarins",module,Magento_Analytics
+"Home Improvement","Millores per a la llar",module,Magento_Analytics
+"Jewelry and Watches","Joieria i Rellotges",module,Magento_Analytics
+"Office Supplies","Material d'oficina",module,Magento_Analytics
+"Pharma and Medical Devices","Dispositius farmacològics i mèdics",module,Magento_Analytics
+"Technology B2B","Tecnologia B2B",module,Magento_Analytics
