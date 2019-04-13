@@ -12,7 +12,7 @@ Notifications,Notificacions,module,Magento_AdminNotification
 "We couldn't mark the notification as Read because of an error.","No podem marcar la notificació com a llegida a causa d'un error.",module,Magento_AdminNotification
 "Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
-"Total of %1 record(s) have been removed.","%1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Un total de %1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","No podem eliminar els missatges a causa d'un error.",module,Magento_AdminNotification
 "The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
 "1 Hour","1 Hora",module,Magento_AdminNotification
@@ -25,6 +25,7 @@ major,importants,module,Magento_AdminNotification
 minor,"a revisar",module,Magento_AdminNotification
 notice,avís,module,Magento_AdminNotification
 "Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Un o més dels tipus de memòria cau són invàlids: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
 "Close popup","Tanca finestra emergent",module,Magento_AdminNotification
@@ -32,6 +33,46 @@ Close,Tanca,module,Magento_AdminNotification
 "Critical System Messages","Missatges crítics de sistema",module,Magento_AdminNotification
 "Major System Messages","Missatges importants de sistema",module,Magento_AdminNotification
 "System messages","Missatges de sistema",module,Magento_AdminNotification
+"Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina.",module,Magento_Backend
+"Cache Storage Management","Gestió d'emmagatzematge de caché",module,Magento_Backend
+"Flush Magento Cache","Buidar la caché de Magento",module,Magento_Backend
+"Flush Cache Storage","Buidar l'emmagatzematge de caché",module,Magento_Backend
+Invalidated,Invalidat,module,Magento_Backend
+Orders,Comandes,module,Magento_Backend
+Amounts,Quantitats,module,Magento_Backend
+Bestsellers,"Més venuts",module,Magento_Backend
+"Most Viewed Products","Productes més vists",module,Magento_Backend
+"New Customers","Nous clients",module,Magento_Backend
+Customers,Clients,module,Magento_Backend
+Customer,Client,module,Magento_Backend
+Guest,Convidat,module,Magento_Backend
+Items,Elements,module,Magento_Backend
+"Average Order","Mitjana de comandes",module,Magento_Backend
+Average,Mitjana,module,Magento_Backend
+Product,Producte,module,Magento_Backend
+Price,Preu,module,Magento_Backend
+Quantity,Quantitat,module,Magento_Backend
+Views,Vistes,module,Magento_Backend
+Tax,Impostos,module,Magento_Backend
+Shipping,Enviament,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Imatges (.gif, .jpg, .png)",module,Magento_Backend
+"All Files","Tots els fitxers",module,Magento_Backend
+"What is this?","Què és això?",module,Magento_Backend
+"My Account","El meu compte",module,Magento_Backend
+"User Name","Nom d'usuari",module,Magento_Backend
+"First Name",Nom,module,Magento_Backend
+"Last Name",Cognoms,module,Magento_Backend
+Email,"Correu electrònic",module,Magento_Backend
+"User Email","Correu electrònic de l'usuari",module,Magento_Backend
+"New Password","Nova Contrasenya",module,Magento_Backend
+"Password Confirmation","Confirmació de la contrasenya",module,Magento_Backend
+"Interface Locale","Configuració d'interfície",module,Magento_Backend
+"Your Password","La teva contrasenya",module,Magento_Backend
+"Save Cache Settings","Desar la configuració de la caché",module,Magento_Backend
+Refresh,Refrescar,module,Magento_Backend
+Clear,Netejar,module,Magento_Backend
+Rebuild,Reconstruïr,module,Magento_Backend
 "Please select items.","Si us plau, selecciona elements.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","No es pot suprimir la botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","No es pot suprimir la vista de botiga. Si us plau, intenti-ho més tard.",module,Magento_Backend
@@ -51,7 +92,6 @@ Close,Tanca,module,Magento_AdminNotification
 "Custom Design","Disseny personalitzat",module,Magento_Catalog
 "Category Data","Dades de la categoria",module,Magento_Catalog
 "Not shared with other products","No compartit amb altres productes",module,Magento_Catalog
-"Shop By","Compra per",theme,frontend/Magento/luma
 "Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
 "Update Frequency","Freqüència d'actualització",module,Magento_AdminNotification
 "Last Update","Darrera actualització",module,Magento_AdminNotification
@@ -61,6 +101,10 @@ Message,Missatge,module,Magento_AdminNotification
 Actions,Accions,module,Magento_AdminNotification
 "Design Theme","Tema de disseny",module,Magento_Backend
 "User-Agent Exceptions","Excepcions d'User-Agent",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+Les cadenes de cerca són cadenes normal o expressions regulars (PCRE). Son coincidents en el mateix ordre que s'escriuen. Exemples: <br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Trobar un cadena en la capçalera de l'User-Agent del client, i canviar a un tema de disseny específic per a aquest navegador.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Si la posició del frame actual no cobreix la majoria de les pàgines, es renderitzarà un enllaç a la posició actual mes/menys aquest valor.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç anterior al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
@@ -69,9 +113,13 @@ Actions,Accions,module,Magento_AdminNotification
 "Enable Javascript Bundling","Activar agrupament de JavaScript",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Restablir Període d'expiració d'enllaços (dies)",module,Magento_Backend
 "Values less than 60 are ignored.","Valors inferiors a 60 són ignorats.",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+                        <strong style=""color:red"">Alerta!</strong> Quan utilitzi els Codis de la Botiga a les URLs, en alguns casos el sistema pot no funcionar correctament si la URL no te Codi de Botiga en serveis de tercers (p. ex. PayPal etc..).
+                    ",module,Magento_Backend
 "Capture action","Capturar l'acció",module,Magento_Braintree
 "Use Vault","Utilitzar Contenidor",module,Magento_Braintree
 "Allow Duplicate Cards","Permetre targetes duplicades",module,Magento_Braintree
 "Your Kount ID","Identificador Kount",module,Magento_Braintree
 "Use Cache","Utilitzar memòria cau",module,Magento_Braintree
-Summary,Resum,theme,frontend/Magento/blank
