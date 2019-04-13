@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_ca_es",
   "description": "Catalan (català) Magento2 Language Pack (ca_ES) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
