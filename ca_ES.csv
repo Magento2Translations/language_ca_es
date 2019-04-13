@@ -1,0 +1,107 @@
+"Read Details","Llegir detalls",module,Magento_AdminNotification
+"Mark as Read","Marca com a llegit",module,Magento_AdminNotification
+"Are you sure?",Segur?,module,Magento_AdminNotification
+Remove,Elimina,module,Magento_AdminNotification
+"Messages Inbox","Safata d'entrada missatges",module,Magento_AdminNotification
+"You have %1 new system messages","Hi ha %1 nous missatges de sistema",module,Magento_AdminNotification
+"You have %1 new system message","Hi ha %1 nou missatge de sistema",module,Magento_AdminNotification
+"Incoming Message","Missatge entrant",module,Magento_AdminNotification
+close,tanca,module,Magento_AdminNotification
+Notifications,Notificacions,module,Magento_AdminNotification
+"The message has been marked as Read.","Missatge marcat com a llegit.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","No podem marcar la notificació com a llegida a causa d'un error.",module,Magento_AdminNotification
+"Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Un total de %1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","No podem eliminar els missatges a causa d'un error.",module,Magento_AdminNotification
+"The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
+"1 Hour","1 Hora",module,Magento_AdminNotification
+"2 Hours","2 Hores",module,Magento_AdminNotification
+"6 Hours","6 Hores",module,Magento_AdminNotification
+"12 Hours","12 Hores",module,Magento_AdminNotification
+"24 Hours","24 Hores",module,Magento_AdminNotification
+critical,crítiques,module,Magento_AdminNotification
+major,importants,module,Magento_AdminNotification
+minor,"a revisar",module,Magento_AdminNotification
+notice,avís,module,Magento_AdminNotification
+"Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
+"Wrong notification ID specified.","ID de notificació especificat incorrecte.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} no es recomana utilitzar en un entorn de producció per declarar l'adreça URL Base no segura / URL Base segura. Es recomana canviar aquest valor a la <a href=""%1"">configuració</a> de Magento.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Un o més dels tipus de memòria cau són invàlids: %1. ",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","No s'ha pogut sincronitzar un o més fitxers multimèdia. Consulteu el registre per veure'n els detalls.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","El servidor web no està ben configurat i permet l'accés a fitxers sensibles. Si us plau, poseu-vos en contacte amb el proveïdor del hosting.",module,Magento_AdminNotification
+"System Messages:","Missatges de sistema:",module,Magento_AdminNotification
+"Critical System Messages","Missatges crítics de sistema",module,Magento_AdminNotification
+"Major System Messages","Missatges importants de sistema",module,Magento_AdminNotification
+"System messages","Missatges de sistema",module,Magento_AdminNotification
+Close,Tanca,module,Magento_AdminNotification
+"See All (","Veure tots (",module,Magento_AdminNotification
+" unread)"," sense llegir)",module,Magento_AdminNotification
+"Please correct the data sent.","Si us plau corregeixi les dades enviades.",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","El tipus de model d'entitat ha de ser una instància de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","No hi ha tipus de producte disponibles per exportar",module,Magento_AdvancedPricingImportExport
+"Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina.",module,Magento_Backend
+"Cache Storage Management","Gestió d'emmagatzematge de caché",module,Magento_Backend
+"Flush Magento Cache","Buidar la caché de Magento",module,Magento_Backend
+"Flush Cache Storage","Buidar l'emmagatzematge de caché",module,Magento_Backend
+Invalidated,Invalidat,module,Magento_Backend
+Orders,Comandes,module,Magento_Backend
+Amounts,Quantitats,module,Magento_Backend
+Bestsellers,"Més venuts",module,Magento_Backend
+"Most Viewed Products","Productes més vists",module,Magento_Backend
+"New Customers","Nous clients",module,Magento_Backend
+Customers,Clients,module,Magento_Backend
+Customer,Client,module,Magento_Backend
+Guest,Convidat,module,Magento_Backend
+Items,Elements,module,Magento_Backend
+"Average Order","Mitjana de comandes",module,Magento_Backend
+Average,Mitjana,module,Magento_Backend
+Product,Producte,module,Magento_Backend
+Price,Preu,module,Magento_Backend
+Quantity,Quantitat,module,Magento_Backend
+Views,Vistes,module,Magento_Backend
+Tax,Impostos,module,Magento_Backend
+Shipping,Enviament,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Imatges (.gif, .jpg, .png)",module,Magento_Backend
+"All Files","Tots els fitxers",module,Magento_Backend
+"What is this?","Què és això?",module,Magento_Backend
+"My Account","El meu compte",module,Magento_Backend
+"User Name","Nom d'usuari",module,Magento_Backend
+"First Name",Nom,module,Magento_Backend
+"Last Name",Cognoms,module,Magento_Backend
+Email,"Correu electrònic",module,Magento_Backend
+"User Email","Correu electrònic de l'usuari",module,Magento_Backend
+"New Password","Nova Contrasenya",module,Magento_Backend
+"Password Confirmation","Confirmació de la contrasenya",module,Magento_Backend
+"Interface Locale","Configuració d'interfície",module,Magento_Backend
+"Your Password","La teva contrasenya",module,Magento_Backend
+"Save Cache Settings","Desar la configuració de la caché",module,Magento_Backend
+Refresh,Refrescar,module,Magento_Backend
+Clear,Netejar,module,Magento_Backend
+Rebuild,Reconstruïr,module,Magento_Backend
+"Please select items.","Si us plau, selecciona elements.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","No has iniciat sessió correctament o el teu compte està temporalment desactivat.",module,Magento_Backend
+"Authentication error occurred.","S'ha produït un error d'autenticació.",module,Magento_Backend
+"Access denied","Accés denegat",module,Magento_Backend
+"Please try to sign out and sign in again.","Si us plau, prova de tancar la sessió i torna a iniciar.",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Si continueu rebent aquest missatge, contacti amb el propietari de la botiga.",module,Magento_Backend
+"You need more permissions to access this.","Necessites mes permisos per accedir aquí.",module,Magento_Backend
+"Report Bugs","Informa d'errors",module,Magento_Backend
+"Show Toolbar","Mostra a la barra d'eines",module,Magento_AdminNotification
+"Show List","Mostra la llista",module,Magento_AdminNotification
+"Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
+"Update Frequency","Freqüència d'actualització",module,Magento_AdminNotification
+"Last Update","Darrera actualització",module,Magento_AdminNotification
+Severity,Gravetat,module,Magento_AdminNotification
+"Date Added","Data en què s'ha afegit",module,Magento_AdminNotification
+Message,Missatge,module,Magento_AdminNotification
+Actions,Accions,module,Magento_AdminNotification
+"Add Block Names to Hints","Afegir noms de Bloc a les pistes",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+                        <strong style=""color:red"">Alerta!</strong> Quan utilitzi els Codis de la Botiga a les URLs, en alguns casos el sistema pot no funcionar correctament si la URL no te Codi de Botiga en serveis de tercers (p. ex. PayPal etc..).
+                    ",module,Magento_Backend
