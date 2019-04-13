@@ -11,7 +11,7 @@ Notifications,Notificacions,module,Magento_AdminNotification
 "The message has been marked as Read.","Missatge marcat com a llegit.",module,Magento_AdminNotification
 "Please select messages.","Seleccioneu missatges si us plau.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","%1 registre(s) s'ha(n) marcat com a llegit(s).",module,Magento_AdminNotification
-"Total of %1 record(s) have been removed.","%1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Un total de %1 registre(s) s'ha(n) eliminat.",module,Magento_AdminNotification
 "The message has been removed.","S'ha eliminat el missatge.",module,Magento_AdminNotification
 "1 Hour","1 Hora",module,Magento_AdminNotification
 "2 Hours","2 Hores",module,Magento_AdminNotification
@@ -25,6 +25,7 @@ notice,avís,module,Magento_AdminNotification
 "Wrong message type","Tipus de missatge erroni",module,Magento_AdminNotification
 "Wrong notification ID specified.","ID de notificació especificat incorrecte.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} no es recomana utilitzar en un entorn de producció per declarar l'adreça URL Base no segura / URL Base segura. Es recomana canviar aquest valor a la <a href=""%1"">configuració</a> de Magento.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Un o més dels tipus de memòria cau són invàlids: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Si us plau aneu a <a href=""%1"">Administració de memòria cau</a> i actualitzeu.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","No s'ha pogut sincronitzar un o més fitxers multimèdia. Consulteu el registre per veure'n els detalls.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","S'ha completat la sincronització de l'emmagatzematge.",module,Magento_AdminNotification
@@ -36,6 +37,7 @@ Close,Tanca,module,Magento_AdminNotification
 "Major System Messages","Missatges importants de sistema",module,Magento_AdminNotification
 "System messages","Missatges de sistema",module,Magento_AdminNotification
 "See All (","Veure tots (",module,Magento_AdminNotification
+" unread)"," sense llegir)",module,Magento_AdminNotification
 "Please correct the data sent.","Si us plau corregeixi les dades enviades.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","El tipus de model Entity '%1' no s'ha trobat",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","El tipus de model d'entitat ha de ser una instància de \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -44,6 +46,46 @@ Close,Tanca,module,Magento_AdminNotification
 "We can't process your order right now. Please try again later.","No podem processar la comanda ara. Si us plau, proveu-ho més tard.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","El pagament no ha funcionat per que no podem trobar aquesta comanda.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Alguna cosa no ha funcionat: el total del pagament no coincideix amb el total de la comanda. Si us plau, rectifiqueu-ho i proveu-ho de nou.",module,Magento_Authorizenet
+"Invalid Form Key. Please refresh the page.","Clau de formulari invàlida. Si us plau, refresca la pàgina.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Has introduït una clau secreta invàlida. Si us plau, actualiza la pàgina.",module,Magento_Backend
+"Cache Storage Management","Gestió d'emmagatzematge de caché",module,Magento_Backend
+"Flush Magento Cache","Buidar la caché de Magento",module,Magento_Backend
+"Flush Cache Storage","Buidar l'emmagatzematge de caché",module,Magento_Backend
+Invalidated,Invalidat,module,Magento_Backend
+Orders,Comandes,module,Magento_Backend
+Amounts,Quantitats,module,Magento_Backend
+Bestsellers,"Més venuts",module,Magento_Backend
+"Most Viewed Products","Productes més vists",module,Magento_Backend
+"New Customers","Nous clients",module,Magento_Backend
+Customers,Clients,module,Magento_Backend
+Customer,Client,module,Magento_Backend
+Guest,Convidat,module,Magento_Backend
+Items,Elements,module,Magento_Backend
+"Average Order","Mitjana de comandes",module,Magento_Backend
+Average,Mitjana,module,Magento_Backend
+Product,Producte,module,Magento_Backend
+Price,Preu,module,Magento_Backend
+Quantity,Quantitat,module,Magento_Backend
+Views,Vistes,module,Magento_Backend
+Tax,Impostos,module,Magento_Backend
+Shipping,Enviament,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Imatges (.gif, .jpg, .png)",module,Magento_Backend
+"All Files","Tots els fitxers",module,Magento_Backend
+"What is this?","Què és això?",module,Magento_Backend
+"My Account","El meu compte",module,Magento_Backend
+"User Name","Nom d'usuari",module,Magento_Backend
+"First Name",Nom,module,Magento_Backend
+"Last Name",Cognoms,module,Magento_Backend
+Email,"Correu electrònic",module,Magento_Backend
+"User Email","Correu electrònic de l'usuari",module,Magento_Backend
+"New Password","Nova Contrasenya",module,Magento_Backend
+"Password Confirmation","Confirmació de la contrasenya",module,Magento_Backend
+"Interface Locale","Configuració d'interfície",module,Magento_Backend
+"Your Password","La teva contrasenya",module,Magento_Backend
+"Save Cache Settings","Desar la configuració de la caché",module,Magento_Backend
+Refresh,Refrescar,module,Magento_Backend
+Clear,Netejar,module,Magento_Backend
+Rebuild,Reconstruïr,module,Magento_Backend
 "We couldn't find any records.","No podem trobar cap registre.",module,Magento_Backend
 "Please select items.","Si us plau, selecciona elements.",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empry","Si us plau, corregiu la configuració de la llengüeta i proveu un altre cop. El id de la llengüeta no pot ser buit.",module,Magento_Backend
@@ -88,45 +130,6 @@ Close,Tanca,module,Magento_AdminNotification
 "Category Data","Dades de la categoria",module,Magento_Catalog
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","Això s'utilitza internament. Assegureu-vos que no utilitzeu espais ni més de %1 símbols.",module,Magento_Catalog
 "Not shared with other products","No compartit amb altres productes",module,Magento_Catalog
-"Now Shopping by","Comprant per",theme,frontend/Magento/luma
-Previous,Anterior,theme,frontend/Magento/luma
-Remove,Treure,theme,frontend/Magento/luma
-"Remove This Item","Treure aquest element",theme,frontend/Magento/luma
-"Shop By","Compra per",theme,frontend/Magento/luma
-"Clear All","Neteja tot",theme,frontend/Magento/luma
-"Shopping Options","Opcions de compra",theme,frontend/Magento/luma
-"Welcome to %store_name.","Us donem la benvinguda a %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Per iniciar sessió, utilitzeu aquestes credencials durant la formalització de la comanda o a la pàgina <a href=""%customer_url"">El meu compte</a>:",theme,frontend/Magento/luma
-Email:,Correu:,theme,frontend/Magento/luma
-Password:,Contrasenya:,theme,frontend/Magento/luma
-"Password you set when creating account","Contrasenya indicada quan es va crear el compte",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Contrasenya oblidada? Feu clic <a href=""%reset_url"">aquí</a> per a restaurar-la.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Quan inicieu sessió al vostre compte, podreu:",theme,frontend/Magento/luma
-"Quick Checkout","Compra ràpida",theme,frontend/Magento/luma
-"Proceed through checkout faster","Formalitzar la comanda ràpidament",theme,frontend/Magento/luma
-"Order Status","Estat de la comanda",theme,frontend/Magento/luma
-"Check the status of orders","Comprovar l'estat de les comandes",theme,frontend/Magento/luma
-"Manage Addresses","Gestionar adreces",theme,frontend/Magento/luma
-"Store alternative addresses","Desar adreces alternatives",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Per enviar a familiars i amics",theme,frontend/Magento/luma
-"Order History","Historial de comandes",theme,frontend/Magento/luma
-"View past orders","Veure comandes anteriors",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Horari d'atenció:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Gràcies per la comanda a %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Podeu revisar l'estat de la comanda <a href=""%account_url"">entrant al vostre compte</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Si teniu consultes sobre la comanda, ens podeu escriure a <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Factura d'abonament #%creditmemo_id de la comanda #%order_id",theme,frontend/Magento/luma
-"Billing Info","Informació de facturació",theme,frontend/Magento/luma
-"Shipping Info","Informació d'enviament",theme,frontend/Magento/luma
-"Payment Method","Mètode de pagament",theme,frontend/Magento/luma
-"Shipping Method","Mètode d'enviament",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","La comanda #%increment_id ha estat actualitzada a l'estat <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Factura #%invoice_id de la comanda #%order_id",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Rebreu el número de seguiment quan us enviem la comanda.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Comanda <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Posat en <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Confirmació de l'enviament a continuació. Gràcies de nou per la comanda.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Enviament #%shipment_id de la comanda #%order_id",theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","No reconeixem o donem suport a aquest tipus d'extensió de fitxer.",module,Magento_Backend
 "Use HTTPS to Get Feed","Utilitzar HTTPS per obtenir el Feed",module,Magento_AdminNotification
 "Update Frequency","Freqüència d'actualització",module,Magento_AdminNotification
@@ -137,6 +140,10 @@ Message,Missatge,module,Magento_AdminNotification
 Actions,Accions,module,Magento_AdminNotification
 "Design Theme","Tema de disseny",module,Magento_Backend
 "User-Agent Exceptions","Excepcions d'User-Agent",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+Les cadenes de cerca són cadenes normal o expressions regulars (PCRE). Son coincidents en el mateix ordre que s'escriuen. Exemples: <br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Trobar un cadena en la capçalera de l'User-Agent del client, i canviar a un tema de disseny específic per a aquest navegador.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Si la posició del frame actual no cobreix la majoria de les pàgines, es renderitzarà un enllaç a la posició actual mes/menys aquest valor.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Text alternatiu per a l'enllaç anterior al menú de paginació. Si és buit, s'utilitzarà la imatge de la fletxa per defecte.",module,Magento_Backend
@@ -145,6 +152,11 @@ Actions,Accions,module,Magento_AdminNotification
 "Enable Javascript Bundling","Activar agrupament de JavaScript",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Restablir Període d'expiració d'enllaços (dies)",module,Magento_Backend
 "Values less than 60 are ignored.","Valors inferiors a 60 són ignorats.",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+                        <strong style=""color:red"">Alerta!</strong> Quan utilitzi els Codis de la Botiga a les URLs, en alguns casos el sistema pot no funcionar correctament si la URL no te Codi de Botiga en serveis de tercers (p. ex. PayPal etc..).
+                    ",module,Magento_Backend
 "Capture action","Capturar l'acció",module,Magento_Braintree
 "New Order Status","Nou estat de la comanda",module,Magento_Braintree
 "Use Vault","Utilitzar Contenidor",module,Magento_Braintree
@@ -152,9 +164,3 @@ Actions,Accions,module,Magento_AdminNotification
 "Enable Credit Card auto-detection on Storefront","Permetre l'auto-detecció de targeta de crèdit en la botiga",module,Magento_Braintree
 "Your Kount ID","Identificador Kount",module,Magento_Braintree
 "Use Cache","Utilitzar memòria cau",module,Magento_Braintree
-Summary,Resum,theme,frontend/Magento/blank
-"Account Information","Informació del compte",theme,frontend/Magento/blank
-"Address Book","Llibreta d'adreces",theme,frontend/Magento/blank
-Menu,Menú,theme,frontend/Magento/blank
-Account,Compte,theme,frontend/Magento/blank
-Settings,Configuració,theme,frontend/Magento/blank
